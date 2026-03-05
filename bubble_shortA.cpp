@@ -77,4 +77,24 @@ void display()
             cout << "--> ";
         }
     }
+    cout << endl;
+    cout << endl;
+
+    cout <<  "Jumlah pass = " << n - 1 << endl;
+    cout << endl;
+    cout << endl;
 }
+
+int main ()
+{
+
+    input();
+
+    bubbleSortArray();
+    display();
+
+    system("pause");
+    return 0;
+}
+
+
